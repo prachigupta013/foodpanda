@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.nav{
+	background: blue;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top:0px;
+}
+.nav .logo img{
+	width: 90px
+}
+.a{
+	color: white;
+}
+.menu a{
+	font-size: 25px;
+	color:white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.banner{
+	background: url(https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-model-opt-scaled.jpg);
+	width: 100%;
+
+}

@@ -1,0 +1,293 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header{
+	background-image: url(https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-model-opt-scaled.jpg);
+	width: 100%;
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+header h1{	
+	font-family: cursive;
+	font-size: 50px;
+	color: whitesmoke;
+	text-align: center;
+    text-shadow: 1px 5px 6px purple;
+    margin-top: 199px;
+    word-break: 5px;
+
+}
+nav{
+	background: white;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    border: 2px solid white;
+    padding: 0 90px;
+}
+.menu a{
+	color: #fe70a8;
+	font-family: cursive;
+	font-size: 19px;
+	text-decoration: none;
+	padding: 0 20px;
+}
+/*section{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #80808080;
+
+
+}*/
+
+.about{
+	background: whitesmoke;
+	width: 100%;
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+.col{
+	align-content: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    font-family: cursive;
+    font-size: 30px;
+    color: crimson;
+   
+}
+.col1{
+	align-content: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 234px;
+    font-family: cursive;
+    font-size: x-large;
+    word-spacing: normal;
+    padding: 50px;
+    color: deeppink;
+    
+}
+.col2{
+	align-content: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 83px;
+    align-items: center;
+
+}
+.button{
+	height: 40px;
+    width: 290px;
+    font-size: 25px;
+    font-family: cursive;
+    background: gainsboro;
+}
+.d img{
+	position: relative;
+	line-height: 50%;
+
+}
+.careers{
+	background-image: url(../img/foodpanda-rider-opt.jpg);
+	width: 100%;
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+	padding: 20px;
+}
+.col3{
+	align-content: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    font-family: cursive;
+    font-size: 30px;
+    color: brown;
+   
+}
+.col4{
+	align-content: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 180px;
+    font-family: cursive;
+    font-size: 35px;
+    word-spacing: normal;
+    padding: 50px;
+    color: darkred;
+    
+}
+.col5{
+	align-content: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 83px;
+    align-items: center;
+
+
+}
+.abc{
+	height: 40px;
+    width: 290px;
+    font-size: 25px;
+    font-family: cursive;
+    background: deeppink;
+    color: white;
+    border-color: hotpink;
+}
+.Press{
+	background-image: url(../img/foodpanda-tuna-opt-scaled.jpg);
+	width: 100%;
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+	
+}
+.col6{
+	
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    font-family: cursive;
+    font-size: 30px;
+    color: brown;
+   
+}
+.col7{
+	align-content: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 180px;
+    font-family: cursive;
+    font-size: 25px;
+    word-spacing: normal;
+    padding: 50px;
+    color: brown;
+    
+}
+.col8{
+	align-content: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 83px;
+    align-items: center;
+
+}
+.d{
+	height: 40px;
+    width: 290px;
+    font-size: 25px;
+    font-family: cursive;
+    background: deeppink;
+}
+.Contact{
+	background:hotpink;
+	width: 100%;
+	height: 700px;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+	
+}
+.col9{
+	
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    font-family: cursive;
+    font-size: 30px;
+    color: black;
+   
+}
+.col10{
+	align-content: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+/*    height: 180px;*/
+    font-family: cursive;
+    font-size: 25px;
+    word-spacing: normal;
+    padding: 50px;
+    color: brown;
+    
+}
+.col11{
+	align-content: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 83px;
+    align-items: center;
+
+}
+.de{
+	height: 40px;
+    width: 290px;
+    font-size: 25px;
+    font-family: cursive;
+    background: white;
+    color: hotpink;
+}
+/*footer*/
+.container-footer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+.container-site-footer {
+    
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo, .site-footer-copy {
+    justify-content: flex-start;
+}
+.social{
+    justify-content: flex-end;
+}
+.site-footer-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 11px;
+}
+.site-footer-copy {
+    color: darkred;
+    font-weight: 300;
+}
+ .imprint {
+    justify-content: flex-end;
+}
